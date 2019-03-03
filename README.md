@@ -44,6 +44,8 @@ What this means is that your webpage should serve the tilemap and tileset files 
    <script src="phaser-tiled-json-external-loader.js"></script>
    ```
 
+[Releases]: https://github.com/Osmose/phaser-tiled-json-external-loader/releases
+
 ## Usage
 
 Use the `tilemapTiledJSONExternal` loader to load your tilemap's JSON:
