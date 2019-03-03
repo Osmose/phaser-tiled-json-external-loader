@@ -1,0 +1,17 @@
+{
+  "name": "phaser-tiled-json-external-loader",
+  "version": "0.1.0",
+  "description": "A Phaser loader for Tiled JSON tilemaps that supports external tilesets.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Richard Davey <rich@photonstorm.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "phaser": ">= 3.16.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.4.0"
+  }
+}
