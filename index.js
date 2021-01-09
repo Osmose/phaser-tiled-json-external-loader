@@ -70,7 +70,7 @@ export default function registerTiledJSONExternalLoader(Phaser) {
 
             const tilesetFile = new JSONFile(
               loader,
-              `_TILESET_${tilesetUrl}`,
+              `_TILESET_${file.key}_${tilesetUrl}`,
               tilesetUrl,
               tilesetXhrSettings,
             );
@@ -87,7 +87,7 @@ export default function registerTiledJSONExternalLoader(Phaser) {
       }
     }
 
-    addToCache(){
+    addToCache() {
       if (this.isReadyToProcess()) {
         const tilemapFile = this.files[0];
         for (const file of this.files.slice(1)) {

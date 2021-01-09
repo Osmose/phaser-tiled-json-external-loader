@@ -1,6 +1,6 @@
 {
   "name": "phaser-tiled-json-external-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Phaser loader for Tiled JSON tilemaps that supports external tilesets.",
   "main": "index.js",
   "scripts": {
