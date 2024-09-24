@@ -12,6 +12,6 @@
     "phaser": ">= 3.16.0"
   },
   "devDependencies": {
-    "rollup": "^1.4.0"
+    "rollup": "^3.29.5"
   }
 }
